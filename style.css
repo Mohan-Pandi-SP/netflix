@@ -1,0 +1,800 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: black;
+  }
+  
+  .main-front-page-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(https://assets.nflxext.com/ffe/siteui/vlv3/74d734ca-0eab-4cd9-871f-bca01823d872/web/IN-en-20241021-TRIFECTA-perspective_2277eb50-9da3-4fdf-adbe-74db0e9ee2cf_large.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+ 
+  
+  #netflix {
+    width: 16%;
+  }
+  
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    align-items: center;
+    /* margin: auto; */
+    position: relative;
+    top: 10px;
+  }
+  
+  #awe-language {
+    position: absolute;
+    top: 18px;
+    padding: 8px 6px;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+  }
+  .option-language {
+    padding: 4px 22px;
+    border-radius: 5px;
+    border: 1px solid #737272;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    background: transparent;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+  }
+  
+  .option-language option {
+    background-color: black;
+  }
+  .sign {
+    padding: 7px 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 15px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    bottom: 3px;
+  }
+  
+  .main-text {
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 22%;
+    line-height: 2;
+  }
+  
+  .main-text-1 {
+    font-size: 4rem;
+    font-weight: 900;
+  }
+  .main-text-para-1 {
+    text-align: center;
+    font-size: 24px;
+  }
+  .main-text-para-1a {
+    text-align: center;
+    font-size: 20px;
+  }
+  .form {
+    text-align: center;
+  }
+  #email {
+    width: 45%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    /* opacity: 0.3; */
+    color: inherit;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 1.5rem 2rem 1.5rem;
+    color: white;
+    font-weight: 400;
+  }
+  #submit {
+    position: relative;
+    top: 3px;
+    width: 23%;
+    line-height: 2.5;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: red;
+    font-weight: 700;
+    border: none;
+    left: 5px;
+  }
+  
+  /****************** second-page *****************/
+  
+  .second-page-tv {
+    background-color: black;
+    min-height: 75vh;
+    color: white;
+    border-bottom: 8px solid #383333;
+    border-top: 8px solid #383333;
+  }
+  
+  .tv-h1 {
+    padding-top: 125px;
+    font-size: 3em;
+    font-weight: 900;
+  }
+  .tv-para {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 15px;
+  }
+  #tv-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 10;
+  }
+  .tv-video {
+    position: absolute;
+    top: 85px;
+    right: 58px;
+    width: 74%;
+  }
+  
+  /* ************* third-page******* */
+  
+  .third-page-mobile {
+    background-color: black;
+    min-height: 85vh;
+    color: white;
+    position: relative;
+  }
+  #mobile {
+    width: 100%;
+  }
+  
+  #mobile-h1 {
+    position: relative;
+    top: 100px;
+    font-size: 4rem;
+    font-weight: 900;
+  }
+  .mobile-para {
+    position: relative;
+    top: 110px;
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+  
+  #computer-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 10;
+    padding-top: 30px;
+  }
+  .computer-video {
+    position: absolute;
+    top: 59px;
+    right: 118px;
+    width: 59%;
+  }
+  
+  #kid {
+    position: relative;
+    top: 40px;
+    right: 60px;
+  }
+  #kid-h1 {
+    position: relative;
+    top: 180px;
+    font-size: 4rem;
+    font-weight: 900;
+  }
+  .kid-para {
+    position: relative;
+    top: 190px;
+    font-size: 2.3rem;
+    font-weight: 500;
+  }
+  
+ 
+  
+  .sixth-page {
+    background-color: black;
+    color: white;
+    min-height: 130vh;
+    border-top: 8px solid #383333;
+  }
+  
+  #sixth-page-h1 {
+    text-align: center;
+  }
+  
+  #sixth-page-h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    padding-top: 20px;
+  }
+  
+  .sixth-page-grey {
+    background-color: rgb(45, 45, 45);
+    padding: 24px 25px;
+    margin-top: 35px;
+    transition: 0.3;
+    cursor: pointer;
+    font-size: 26px;
+  }
+  .sixth-page-grey:hover {
+    background-color: rgb(55, 55, 55);
+    transition: 0.3s;
+  }
+  
+  .float-right {
+    float: right;
+    background-color: rgb(45, 45, 45);
+  }
+  .float-right button {
+    background-color: rgb(45, 45, 45);
+    border: none;
+  }
+  .float-right svg {
+    color: white;
+  }
+  .sixth-page-h2 {
+    background-color: rgb(45, 45, 45);
+    padding: 24px 25px;
+    margin-top: 10px;
+    transition: 0.3;
+    cursor: pointer;
+    font-size: 26px;
+  }
+  .sixth-page-h2:hover {
+    background-color: rgb(55, 55, 55);
+    transition: 0.3s;
+  }
+  .sixth-page-h2 svg {
+    float: right;
+    color: white;
+  }
+  .sixth-page-box-para {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 35px;
+  }
+  #email{
+    width: 35%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    color: inherit;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 2rem 2rem 1.5rem;
+    color: white;
+    font-weight: 400;
+  }
+  #submit-2 {
+    position: relative;
+    top: 2px;
+    width: 15%;
+    line-height: 2.3;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: red;
+    font-weight: 700;
+    border: none;
+    margin-left: 5px;
+  }
+  
+  
+  #email-2{
+      width: 35%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    color: inherit;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 2rem 2rem 1.5rem;
+    color: white;
+    font-weight: 400;
+  }
+  #submit-3{
+      position: relative;
+      top: 2px;
+      width: 15%;
+      line-height: 2.3;
+      border-radius: 5px;
+      font-size: 24px;
+      background-color: red;
+      font-weight: 700;
+      border: none;
+      margin-left: 5px;
+  }
+  
+  /* last-page */
+  
+  .last {
+    background: black;
+    border-top: 8px solid #383333;
+    min-height: 75vh;
+    color: #737272;
+    text-decoration: none;
+  }
+  .last-page-div {
+    position: relative;
+    top: 81px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    left: 74px;
+  }
+  
+  .last-page-div a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .main-footer {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+  }
+  .footer-1 ul li {
+    padding: 8px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .footer-1 ul li a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    text-decoration: underline;
+  }
+  .footer-language {
+    padding-left: 15px;
+  }
+  #awe-language-2 {
+    position: relative;
+    left: -13px;
+    top: 0px;
+  }
+  .option-language-footer option {
+    background-color: white;
+    color: #383333;
+  }
+  .option-language-footer {
+    padding: 4px 22px;
+    border-radius: 5px;
+    border: 1px solid #737272;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    background: transparent;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    right: 37px;
+  }
+  
+  .box {
+    background-color: rgb(45, 45, 45);
+    padding: 24px 22px;
+    margin-top: 1rem;
+  }
+  .box:hover {
+    background-color: rgb(55, 55, 55);
+  }
+  .toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .heading {
+    font-size: 26px;
+  }
+  .svg {
+    cursor: pointer;
+  }
+  .para-toggle {
+    font-size: 18px;
+    margin-top: 3rem;
+    display: none;
+    transition: height 0.3s ease, padding 0.3s ease;
+  }
+  
+  .para-toggle.show {
+    height: auto;
+    display: block;
+    transform: 0.3s;
+  }
+  .svg {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .svg.rotate {
+    transform: rotate(90deg); /* Optional rotation */
+  }
+  
+  @media (max-width: 850px) {
+    html {
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+  
+    body {
+      text-align: center;
+      overflow-x: hidden;
+    }
+  
+    .main-text {
+      position: absolute;
+      color: white;
+      top: 30%;
+      left: 15%;
+      line-height: 1.5;
+    }
+    .main-text-1 {
+      font-size: 3rem;
+      font-weight: 900;
+      /* max-width: 45rem; */
+      margin-right: 8rem;
+      text-align: center;
+    }
+    .main-text-para-1 {
+      text-align: center;
+      font-size: 17px;
+      margin-right: 8rem;
+    }
+    .main-text-para-1a {
+      width: auto;
+      padding-right: 7rem;
+      font-size: 16px;
+    }
+    .form-1 {
+      display: flex;
+      flex-direction: column;
+      max-width: 100vw;
+      gap: 10px;
+      align-items: center;
+      margin-right: 9rem;
+  }
+    #email {
+      width: 100%;
+      padding: 1.1rem 2rem 1.2rem;
+      text-align: left;
+    }
+    #submit {
+      width: 45%;
+      line-height: 2.3;
+      left:0;
+      font-size: 21px;
+    }
+    .tv-h1{
+      padding-top: 15px;
+    }
+    .second-page-tv{
+      min-height: 100vh;
+    }
+    .tv-video {
+      position: absolute;
+      top: 60px;
+      right: 75px;
+      width: 74%;
+  }
+    .third-page-mobile{
+      min-height: 100vh;
+    }
+  
+    #mobile-h1 {
+      position: relative;
+      top: 10px;
+      font-size: 3rem;
+      font-weight: 900;
+      max-width: 76%;
+      margin: auto;
+  }
+  .mobile-para {
+      position: relative;
+      top:10px;
+      font-size: 3rem;
+      /* font-weight: 200; */
+  }
+  #mobile{
+      width: 75%;
+      margin-bottom: 20px;
+  }
+  .computer-video {
+      position: absolute;
+      top: 60px;
+      right: 120px;
+      width: 59%;
+  }
+  #kid {
+      position: relative;
+      top: 0;
+      right: 0;
+      width: 100%;
+  }
+  #kid-h1 {
+      font-size: 3.5rem;
+      top: -15px;
+  }
+  .kid-para {
+      position: relative;
+      top: -11px;
+      font-size: 2rem;
+      font-weight: 100;
+  }
+  #sixth-page-h1{
+      font-size: 3.5rem;
+  }
+  .sixth-page-box-para {
+      font-size: 18px;
+      padding-top: 19px;
+  }
+  .box {
+      padding: 14px 21px;
+      margin-top: 1rem;
+      text-align: left;
+  }
+  .form-2{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      max-width: 100vw;
+      margin: auto;
+      /* align-items: baseline; */
+  }
+  #email-2{
+      width: 100%;
+      margin: auto;
+      text-align: left;
+  }
+  #submit-3{
+      width: 35%;
+      /* margin: auto; */
+      font-size: 20px;
+  
+  }
+  .last{
+    text-align: left;
+    min-height: 130vh;
+  }
+  .last-page-div {
+    top: 15px;
+    font-size: 18px;
+    left: 0;
+    text-align: left;
+  }
+  .main-footer {
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    flex-direction: column;
+  }
+  .footer-1 ul li {
+    padding: 5px;
+  }
+  
+  }
+  
+  
+  @media (min-width: 850px) and (max-width: 1250px) {
+    html{
+      overflow-x: hidden;
+    }
+    body{
+      text-align: center;
+      overflow-x: hidden;
+    }
+    .main-text {
+      position: absolute;
+      top: 28%;
+      left: 8.5rem;
+      line-height: 1;
+  }
+  .main-text-1 {
+    font-size: 4rem;
+    font-weight: 900;
+  }
+  .tv-h1 {
+    padding-top: 8rem;
+    font-size: 3em;
+    font-weight: 900;
+  }
+  #submit{
+    top: 0;
+    line-height: 2.2;
+  }
+  .third-page-mobile{
+    min-height: 100vh;
+  }
+  #mobile-h1{
+    top: 7rem;
+  }
+  .mobile-para{
+    top: 8rem;
+  }
+  .tv-h1{
+    padding-top: 5rem;
+  }
+  .computer-video {
+    right: 93px;
+  
+  }
+  #kid{
+    width: 100%;
+  }
+  #kid-h1{
+    top: 7rem;
+  }
+  .kid-para{
+    top: 8rem;
+  }
+  }
+  
+  @media (min-width: 1100px) and (max-width: 1250px){
+    .main-text {
+      position: absolute;
+      top: 28%;
+      left: 16rem;
+      line-height: 1;
+  }
+  }
+  @media (min-width: 850px) and (max-width: 1000px){
+    .computer-video {
+      right: 153px;
+  }
+  .tv-video {
+    position: absolute;
+    top: 85px;
+    right: 79px;
+    width: 74%;
+  }
+  }
+  
+  
+  @media (min-width: 850px) and (max-width: 1000px){
+    #mobile-h1 {
+      top: inherit;
+  }
+  .mobile-para {
+    top: inherit;
+  }
+  #kid-h1 {
+    top: -1rem;
+  }
+  .kid-para {
+    top: -1rem;
+  }
+  #email-2{
+    width: 100%;
+  }
+  #submit-3{
+    float: left;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      width: 35%;
+  }
+  }
+  
+  @media (min-width: 340px) and (max-width: 470px){
+    #netflix {
+      width: 32%;
+  }
+  #awe-language {
+    position: absolute;
+    top: 9px;
+    padding: 10px 4px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+  }
+  .option-language {
+    padding: 4px 16px;
+    font-size: 16px;
+  }
+  
+  .sign {
+    padding: 4.8px 12px;
+    margin: 5px;
+  }
+    .main-text {
+  
+      line-height: 1.2;
+  }
+    .main-text-1 {
+      font-size: 2.2rem;
+    }
+    .main-text-para-1 {
+      font-size: 15px;}
+      .main-text-para-1a {
+        font-size: 15px;
+      }
+      #submit {
+        width: 67%;
+      }
+      #submit-3 {
+        width: 39%;
+        margin-bottom: 2rem;
+    }
+      .tv-h1 {
+        padding-top: 6rem;
+        font-size: 3rem;
+    }
+    #mobile {
+      width: 100%;
+      margin-bottom: 20px;
+      margin-top: 3rem;
+  }
+    .tv-para {
+      font-size: 1.8rem;
+      font-weight: 600;
+      padding-top: 11px;
+  }
+  .tv-video {
+    top: 58px;
+    right: 44px;
+  }
+  
+  #mobile-h1 {
+    position: relative;
+    top: 4rem;
+    font-size: 2.5rem;
+    max-width: 100%;
+  }
+  .mobile-para {
+    top: 5rem;
+    font-size: 1.8rem;
+  }
+  .computer-video {
+    top: 52px;
+    right: 85px;
+  }
+  #kid {
+    position: relative;
+    top: 5rem;
+    right: 0;
+    width: 100%;
+  }
+  .kid-para {
+    font-size: 2rem;
+  }
+  #kid-h1 {
+    font-size: 2.9rem;
+    margin-top: 9rem;
+  }
+  .heading {
+    font-size: 19px;
+  }
+  .last {
+    text-align: left;
+    min-height: 102vh;
+  }
+        .second-page-tv {
+          min-height: 90vh;
+      }
+      .third-page-mobile {
+          min-height: 90vh;
+  
+  }
+}
